@@ -16,22 +16,15 @@ public class LoginStepDefinitions {
         pages.loginPage().goToLandingPage();
     }
 
-
     @Then("user logs in as a {string}")
     public void user_logs_in_as_a(String role) {
         pages.loginPage().login(role);
     }
 
 
-
-
     @Then("user verifies that {string} page name is displayed")
     public void user_verifies_that_page_name_is_displayed(String pageName) {
         Assert.assertEquals(pageName, pages.dashboardPage().getPageSubTitle());
     }
-
-
-
-
 
 }

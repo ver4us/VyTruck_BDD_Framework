@@ -6,32 +6,17 @@ Feature: As user I want to login under different roles
     Then user logs in as a "store manager"
     And user verifies that "Dashboard" page name is displayed
 
-
 #  @salesmanager
-  Scenario: Login as a store manager
+  Scenario: Login as a sales manager
     Given user is on the landing page
     Then user logs in as a "sales manager"
     And user verifies that "Dashboard" page name is displayed
 
-
-
-#  @driver
-  Scenario: Login as a driver
+# @driver
+  Scenario: Login as a store manager
     Given user is on the landing page
     Then user logs in as a "driver"
-    And user verifies that "Quick Launchpadz" page name is displayed
-
-
-
-
-
-
-
-
-
-
-
-
+    And user verifies that "Dashboard" page name is displayed
 
 
 #  //@negative

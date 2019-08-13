@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Vytrack_Cucumber_HW2" />
         <module name="Vytrack_Cucumber" />
       </profile>
     </annotationProcessing>

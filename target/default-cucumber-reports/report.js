@@ -46,7 +46,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Login as a store manager",
+  "name": "Login as a sales manager",
   "description": "",
   "keyword": "Scenario"
 });
@@ -87,7 +87,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Login as a driver",
+  "name": "Login as a store manager",
   "description": "",
   "keyword": "Scenario"
 });
@@ -115,14 +115,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies that \"Quick Launchpadz\" page name is displayed",
+  "name": "user verifies that \"Dashboard\" page name is displayed",
   "keyword": "And "
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cQuick Launchpad[z]\u003e but was:\u003cQuick Launchpad[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.vytrack.step_definitions.LoginStepDefinitions.user_verifies_that_page_name_is_displayed(LoginStepDefinitions.java:30)\r\n\tat ✽.user verifies that \"Quick Launchpadz\" page name is displayed(src\\test\\resources\\features\\login\\Login.feature:22)\r\n",
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboar]d\u003e but was:\u003c[Quick Launchpa]d\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.vytrack.step_definitions.LoginStepDefinitions.user_verifies_that_page_name_is_displayed(LoginStepDefinitions.java:28)\r\n\tat ✽.user verifies that \"Dashboard\" page name is displayed(src\\test\\resources\\features\\login\\Login.feature:19)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png");
