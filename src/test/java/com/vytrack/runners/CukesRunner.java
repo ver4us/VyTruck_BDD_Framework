@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
         //tags = {"@storemanager"},
         //tags = {"@vehicles"},
         //tags = {"@driver"},
+        tags = {"~@allusers"},
         features = {
               "src/test/resources/features"  // to specify where the features are
 
